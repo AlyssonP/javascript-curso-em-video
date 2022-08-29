@@ -1,0 +1,18 @@
+s.length // Quantos caracteres a string tem
+s.toUpperCase() // tudo pra maiuscula
+s.toLowerCase() //tudo para minusculas
+
+document.write() escreve na tela
+document.writeln() escreve na tela e pula linha
+
+formatando numeros
+
+n1.toFixed(2) //duas casas decimais
+
+cods
+var n1 = 1545.5
+n1.toFixed(2)
+n1.toFixed(2).replace('.',',')
+
+n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+
